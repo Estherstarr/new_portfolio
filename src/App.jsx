@@ -34,26 +34,28 @@ export default function App() {
           </div>
         </section>
       </div>
-      <Projects/>
-      <Projects/>
-      <Projects/>
-      <div className="flex about myself">
-        <div>
+      <Projects image_url="src/assets/images/desktopviewimages/PortoflioCard/Snapshoot2.svg" project_title="Tonic" project_name="CANOPY" stack="Back end Dev" year="2015" project_description="A daily selection of privately personalized reads, no accounts or sign-ups required" stack_1="HTML"stack_2="CSS" stack_3="JavaScript" project_url="https://estherstarr.github.io/conferencePage/"/>
+      <Projects image_url="src/assets/images/desktopviewimages/PortoflioCard/Snapshoot3.svg" project_title="Tonic" project_name="CANOPY" stack="Back end Dev" year="2015" project_description="A daily selection of privately personalized or sign-ups required" stack_1="HTML"stack_2="CSS" stack_3="JavaScript" project_url="https://isnt-jabokpoe-awesome.netlify.app"/>
+      <Projects image_url="src/assets/images/desktopviewimages/PortoflioCard/Snapshoot4.svg" project_title="Tonic" project_name="CANOPY" stack="Back end Dev" year="2015" project_description="A daily selection of privately person" stack_1="HTML"stack_2="CSS" stack_3="JavaScript" project_url="https://isnt-jabokpoe-awesome.netlify.app"/>
+      <div className="about-me bg-white flex rounded-tr-3xl mt-28 p-16">
+        <div className="w-1/2">
           <div>
-            <h2>About<br/>Myself</h2>
-            <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see 
+            <h2 className="text-blue-dark text-4xl font-bold">About<br/>Myself</h2>
+            <p className="text-ash-grey text-xl mt-5 mb-5">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see 
               and have a project you need coded, don’t hestiate to contact me.</p>
               <Socials/>
-              <a>Get my resume</a>
+              <button className="h-12 shadow-md mt-5 p-3 rounded-lg text-light-purple border border-light-purple hover:bg-blue-purple hover:text-white">
+              <a href="https://drive.google.com/file/d/1MIFtt_3yv0kiLo059g0UZf7cyxknhigr/view?usp=drive_link" download>Get my resume</a>
+              </button>
           </div>
         </div>
-        <div>
+        <div className="w-1/2 ml-10">
           <Languages/>
           <Frameworks/>
           <Skills/>
         </div>
       </div>
-      <div className="contact me">
+      <div className="contact-me">
         <div>
           <Contact/>
         </div>
