@@ -19,7 +19,7 @@ export default function App() {
             <h3>Contact</h3>
           </div>
         </nav>
-        <section className="pt-48 pb-6 bg-[url('assets/images/header-shapes-mobile@2x.svg')] bg-cover bg-right-top	">
+        <section className="pt-48 pb-6 bg-[url('src/assets/images/header-shapes-mobile@2x.svg')] bg-cover bg-right-top	">
           <div className="w-2/3 mx-auto">
             <h1 className="text-5xl font-bold text-bold-ash tracking-wide">I'm Onomeh,  </h1>
             <h1 className="text-5xl font-bold text-bold-ash tracking-wide">Glad to see</h1>

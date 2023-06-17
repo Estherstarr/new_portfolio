@@ -24,10 +24,10 @@ const Contact = () => {
         console.log("Error occurred while submitting form", error);
         })};  
       return (
-    <div className="bg-blue-purple h-96 rounded-tl-3xl">
+    <div className="bg-blue-purple h-96 rounded-tl-3xl bg-[url('src/assets/images/contact-form.png')] bg-cover bg-right-top">
         <div className="w-2/3 mx-auto">
-        <h3 class="h3-contact">Contact me</h3>
-        <p class="contact-text">
+        <h3 class="text-3xl font-bold text-white">Contact me</h3>
+        <p class="contact-text text-white text-xl">
               If you have an application you are interested in developing, a
               feature that you need built or a project that needs coding. I’d
               love to help with it
