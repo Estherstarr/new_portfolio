@@ -8,27 +8,27 @@ const Socials = () => {
               <ul className="mt-2 flex items-center">
                 <li className="pr-5">
                   <a title="twitter" href="https://twitter.com/home">
-                  <img src="src/assets/Icons/twitter.svg" alt="twitter-icon"/>
+                  <img src="/assets/Icons/twitter.svg" alt="twitter-icon"/>
                   </a>
                 </li>
                 <li className="pr-5">
                   <a title="linkedin" href="https://www.linkedin.com/in/onwuanibe-onomeh-52300a19a/">
-                  <img src="src/assets/Icons/linkedin.svg"/>
+                  <img src="/assets/Icons/linkedin.svg"/>
                   </a>
                 </li>
                 <li className="pr-5">
                   <a title="medium" href="https://medium.com/">
-                  <img src="src/assets/Icons/medium.svg"/>
+                  <img src="/assets/Icons/medium.svg"/>
                   </a>
                 </li>
                 <li className="pr-5">
                   <a title="github" href="https://github.com/Estherstarr">
-                  <img src="src/assets/Icons/github.svg"/>
+                  <img src="/assets/Icons/github.svg"/>
                   </a>
                 </li>
                 <li>
                   <a title="angellist" href="https://wellfound.com/u/onomeh-onwuanibe">
-                  <img src="src/assets/Icons/angel-list.svg"/>
+                  <img src="/assets/Icons/angel-list.svg"/>
                   </a>
                 </li>
               </ul>
