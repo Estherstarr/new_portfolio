@@ -7,7 +7,7 @@ const Socials = () => {
             <div>
               <ul className="mt-2 flex items-center">
                 <li className="pr-5">
-                  <a title="twitter" href="https://twitter.com/home">
+                  <a title="twitter" href="https://twitter.com/anibeesther">
                   <img src="/assets/Icons/twitter.svg" alt="twitter-icon"/>
                   </a>
                 </li>
@@ -17,7 +17,7 @@ const Socials = () => {
                   </a>
                 </li>
                 <li className="pr-5">
-                  <a title="medium" href="https://medium.com/">
+                  <a title="medium" href="https://medium.com/@ellasion19">
                   <img src="/assets/Icons/medium.svg"/>
                   </a>
                 </li>
