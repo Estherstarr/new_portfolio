@@ -12,7 +12,9 @@ module.exports = {
         'bold-ash': '#172b4d',
         'light-purple': '#7f8cff',
         'body-gray': '#e5e5e5',
-        'blue-dark': '#172b4d'
+        'blue-dark': '#172b4d',
+        'circle-purple': '#ebebff',
+        'so-grey': '#7a869a',
       },  
         
     },
