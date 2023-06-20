@@ -24,7 +24,7 @@ const Contact = () => {
         console.log("Error occurred while submitting form", error);
         })};  
       return (
-    <div className="bg-blue-purple rounded-tl-3xl bg-[url('src/assets/images/contact-form.png')] bg-cover bg-right-top pb-24">
+    <div className="bg-blue-purple rounded-tl-3xl bg-[url('/assets/images/contact-form.png')] bg-cover bg-right-top pb-24">
         <div className="w-2/4 mx-auto">
         <h3 class="text-center text-3xl font-bold text-white pt-24 ">Contact me</h3>
         <p class="contact-text text-white text-xl text-center p-6">
