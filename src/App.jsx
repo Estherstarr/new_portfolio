@@ -34,8 +34,8 @@ export default function App() {
           </div>
         </section>
       </div>
-      <Projects image_url="src/assets/images/desktopviewimages/PortoflioCard/Snapshoot2.svg" project_title="Tonic" project_name="CANOPY" stack="Back end Dev" year="2015" project_description="A daily selection of privately personalized reads, no accounts or sign-ups required" stack_1="HTML"stack_2="CSS" stack_3="JavaScript" project_url="https://estherstarr.github.io/conferencePage/"/>
-      <Projects image_url="src/assets/images/desktopviewimages/PortoflioCard/Snapshoot3.svg" project_title="Tonic" project_name="CANOPY" stack="Back end Dev" year="2015" project_description="A daily selection of privately personalized or sign-ups required" stack_1="HTML"stack_2="CSS" stack_3="JavaScript" project_url="https://isnt-jabokpoe-awesome.netlify.app"/>
+      <Projects image_url="src/assets/images/desktopviewimages/PortoflioCard/Snapshoot2.svg" project_title="Women Conference" project_name="CANOPY" stack="Back end Dev" year="2015" project_description="A daily selection of privately personalized reads, no accounts or sign-ups required" stack_1="HTML"stack_2="CSS" stack_3="JavaScript" project_url="https://estherstarr.github.io/conferencePage/"/>
+      <Projects image_url="src/assets/images/desktopviewimages/PortoflioCard/Snapshoot3.svg" project_title="Countries Of The World" project_name="CANOPY" stack="Back end Dev" year="2015" project_description="A daily selection of privately personalized or sign-ups required" stack_1="HTML"stack_2="CSS" stack_3="JavaScript" project_url="https://isnt-jabokpoe-awesome.netlify.app"/>
       <Projects image_url="src/assets/images/desktopviewimages/PortoflioCard/Snapshoot4.svg" project_title="Tonic" project_name="CANOPY" stack="Back end Dev" year="2015" project_description="A daily selection of privately person" stack_1="HTML"stack_2="CSS" stack_3="JavaScript" project_url="https://isnt-jabokpoe-awesome.netlify.app"/>
       <div className="about-me bg-white flex rounded-tr-3xl mt-28 p-16">
         <div className="w-1/2">
@@ -56,9 +56,9 @@ export default function App() {
         </div>
       </div>
       <div className="contact-me">
-        <div>
+        <footer className="contact-section">
           <Contact/>
-        </div>
+        </footer>
       </div>
     </div>
   )

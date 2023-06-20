@@ -6,38 +6,41 @@ const Frameworks = () => {
     const toggleDropdown = () => {
     setIsOpen(!isOpen);
 };
+
+const closeDropdowns = () => {
+  setIsOpen(false);
+};
+
         return (
     <div>
         <button 
-        className="mt-24 bg-blue-500 text-white font-semibold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+        className="w-96 bg-white shadow-lg text-black text-xl font-semibold py-2 px-4 mb-5 rounded focus:outline-none focus:shadow-outline"
         onClick={toggleDropdown}
         >
-         Framework
+         <h4>Framework</h4>
         </button>
         
 
-      {isOpen && (
+        {isOpen && (
         <div className="absolute mt-2 py-2 w-auto bg-white rounded-md shadow-lg">
-          <a
-            href="#"
-            className="inline-block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white"
-          >
-            Option 1
-          </a>
-          <a
-            href="#"
-            className="inline-block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white"
-          >
-            Option 2
-          </a>
-          <a
-            href="#"
-            className="inline-block px-4 py-2 text-gray-800 hover:bg-blue-500 hover:text-white"
-          >
-            Option 3
-          </a>
+          <ul>
+          <li
+            className="mr-5 inline-block px-4 py-2 text-gray-800 bg-light-purple text-white rounded">
+            <h5>React</h5>
+          </li>
+          <li
+            className="mr-5 inline-block px-4 py-2 text-gray-800 bg-light-purple text-white rounded">
+           <h5>Ruby On Rails</h5>
+          </li>
+          <li
+            className="inline-block px-4 py-2 text-gray-800 bg-light-purple text-white rounded">
+            <h5>Postgresql</h5>
+          </li>
+
+          </ul>
         </div>
       )}
+      {isOpen && <div className="fixed inset-0 z-0" onClick={closeDropdowns} />}
     </div>
   )
 }
