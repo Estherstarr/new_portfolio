@@ -10,7 +10,7 @@ export default function App() {
     <div className="bg-body-gray min-h-screen" >
         <nav className="sticky top-0 z-30 bg-white shadow-xl flex justify-between h-11">
           <div>
-            <img className="object-contain h-full w-full" alt="My Logo" src="public/assets/images/estherlogo.png"/>
+            <img className="object-contain h-full w-full" alt="My Logo" src="/assets/images/estherlogo.png"/>
             {/* <h2 className="pl-5 pt-5 font-bold text-blue-purple text-xl">My Logo</h2> */}
           </div>
           <div className="flex justify-evenly w-6/12 pt-5	tracking-wide">
