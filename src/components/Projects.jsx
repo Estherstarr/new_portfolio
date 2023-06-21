@@ -4,7 +4,7 @@ const Projects = ({image_url,project_title,project_name,stack,year,project_descr
   return (
     <div>
         <div  className="w-5/6 mx-auto p-5 flex h-96 justify-between mt-28 rounded-xl bg-white shadow-lg">
-          <div className="pt-5 pl-10 rounded-lg w-5/12 shadow w-96 h-auto"><img src={image_url}/></div>
+          <div className="pt-5 pl-10 rounded-lg w-5/12  w-96 "><img src={image_url}/></div>
           <div className="pt-3 w-7/12 ml-10">
                 <h2 className="text-3xl mb-3 font-bold text-bold-ash">{project_title}</h2>
                 <ul className="flex">
