@@ -15,7 +15,8 @@ export default function App() {
           </div>
           <div className="flex justify-evenly w-6/12 pt-5	tracking-wide">
           <a href="#Portfolio"><h3>Portfolio</h3></a>
-          <a href="#About"><h3>About</h3></a>                       
+          <a href="#About"><h3>About</h3></a>
+          <a href="" target="_blank"><h3>Elevator Pitch</h3></a>                       
           <a href="#contact-section"><h3>Contact</h3></a>            
           </div>
         </nav>
@@ -36,10 +37,11 @@ develop customized software to meet organizational needs.    </p>
         </section>
       </div>
       <div id="Portfolio">
-        <Projects image_url="/assets/images/Screenshot 2023-05-27 at 3.24.45 PM.png" project_title="Women Conference" project_name="CANOPY" stack="Back end Dev" year="2015" project_description="This project is created for women's day celebration. Women's conference which happens annually and the theme for this year is Changing the Bias.I built it using HTML, CSS and JavaScript" stack_1="HTML"stack_2="CSS" stack_3="JavaScript" project_url="https://estherstarr.github.io/conferencePage/"/>
-        <Projects image_url="/assets/images/Screenshot 2023-05-27 at 3.08.03 PM.png" project_title="Countries Of The World" project_name="CANOPY" stack="Back end Dev" year="2015" project_description="This app displays exciting information and facts from countries all over the world. Built with JavaScript and CSS" stack_1="HTML"stack_2="CSS" stack_3="JavaScript" project_url="https://isnt-jabokpoe-awesome.netlify.app"/>
-        <Projects image_url="/assets/images/desktopviewimages/PortoflioCard/Snapshoot4.svg" project_title="Portfolio" project_name="Portfolio" stack="Front end Dev" year="2018" project_description="A sample of my portfolio built with HTML,CSS and JavaScript " stack_1="HTML"stack_2="CSS" stack_3="JavaScript" project_url="https://estherstarr.github.io/personalPortfolio/"/>
-        <Projects image_url="/assets/images/desktopviewimages/PortoflioCard/Snapshoot4.svg" project_title="Learning Blog" project_name="Blog" stack="Front end Dev" year="2022" project_description="Blog site buit with Ruby on Rails " stack_1="Ruby"stack_2="RubyOnRails" stack_3="Tailwind" project_url="https://github.com/Estherstarr/Blogs"/>
+        <Projects image_url="/assets/images/alx.png" project_title="ALX GROUP PROJECT" project_name="AGRIC STRAIE" stack="prototype" year="2023" project_description="Our solution is to develop a web app, Bazaar, where farmers can communicate with consumers directly to reduce the unbalanced cost of foodstuffs on the market." stack_1="TEAM SLIDE DECK" project_deck="https://docs.google.com/presentation/d/1PsopN-Cj2yJN3EtlqsTfBsUAas2TDY-vvKN0ElGQWPM/edit?usp=sharing" description="Video" project_url="https://www.youtube.com/watch?v=1MWOP_jrbfQ&feature=youtu.be"/>
+        <Projects image_url="/assets/images/Screenshot 2023-05-27 at 3.24.45 PM.png" project_title="Women Conference" project_name="CANOPY" stack="Back end Dev" year="2015" project_description="This project is created for women's day celebration. Women's conference which happens annually and the theme for this year is Changing the Bias.I built it using HTML, CSS and JavaScript" stack_1="HTML"stack_2="CSS" stack_3="JavaScript" description="Project" project_url="https://estherstarr.github.io/conferencePage/"/>
+        <Projects image_url="/assets/images/Screenshot 2023-05-27 at 3.08.03 PM.png" project_title="Countries Of The World" project_name="CANOPY" stack="Back end Dev" year="2015" project_description="This app displays exciting information and facts from countries all over the world. Built with JavaScript and CSS" stack_1="HTML"stack_2="CSS" stack_3="JavaScript" description="Project" project_url="https://isnt-jabokpoe-awesome.netlify.app"/>
+        <Projects image_url="/assets/images/desktopviewimages/PortoflioCard/Snapshoot4.svg" project_title="Portfolio" project_name="Portfolio" stack="Front end Dev" year="2018" project_description="A sample of my portfolio built with HTML,CSS and JavaScript " stack_1="HTML"stack_2="CSS" stack_3="JavaScript" description="Project" project_url="https://estherstarr.github.io/personalPortfolio/"/>
+        <Projects image_url="/assets/images/desktopviewimages/PortoflioCard/Snapshoot4.svg" project_title="Learning Blog" project_name="Blog" stack="Front end Dev" year="2022" project_description="Blog site buit with Ruby on Rails " stack_1="Ruby"stack_2="RubyOnRails" stack_3="Tailwind" description="Project" project_url="https://github.com/Estherstarr/Blogs"/>
 
       </div>
       <div id="About" className="about-me bg-white flex rounded-tr-3xl mt-28 p-16">

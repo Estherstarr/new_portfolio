@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Projects = ({image_url,project_title,project_name,stack,year,project_description,stack_1,stack_2,stack_3,project_url}) => {
+const Projects = ({image_url,project_title,project_name,stack,year,project_description,stack_1,stack_2,stack_3,project_url,description,project_deck}) => {
   return (
     <div>
         <div  className="w-5/6 mx-auto p-5 flex h-96 justify-between mt-28 rounded-xl bg-white shadow-lg">
@@ -16,12 +16,12 @@ const Projects = ({image_url,project_title,project_name,stack,year,project_descr
                 </ul>
                 <p>{project_description}</p>
                 <ul className="flex mt-3 mb-3">
-                <li className="bg-circle-purple text-light-purple rounded mr-5 rounded-full pr-5 pl-5">{stack_1}</li>
+                <li className="bg-circle-purple text-light-purple rounded mr-5 rounded-full pr-5 pl-5"><a href={project_deck}><button>{stack_1}</button></a></li>
                 <li className="bg-circle-purple text-light-purple rounded mr-5 rounded-full pr-5 pl-5">{stack_2}</li>
                 <li className="bg-circle-purple text-light-purple rounded mr-5 rounded-full pr-5 pl-5">{stack_3}</li>
                 </ul>
                 <a href={project_url}>
-                <button type="button" className="pt-2 pb-3 p w-32 text-center mt-3 bg-white  border border-light-purple text-light-purple rounded-md mx-auto shadow">See Project</button>
+                <button type="button" className="pt-2 pb-3 p w-32 text-center mt-3 bg-white  border border-light-purple text-light-purple rounded-md mx-auto shadow">See {description}</button>
                 </a>
           </div>
        </div>
