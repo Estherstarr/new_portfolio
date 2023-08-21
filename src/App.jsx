@@ -24,7 +24,7 @@ export default function App() {
           <a href="#About">
             <h3>About</h3>
           </a>
-          <a href="https://docs.google.com/document/d/18mfaBdWpSd6H9n87qYQlnziLKTNd5tlI7j0SXc3QP80/edit?usp=sharing" target="_blank">
+          <a href="https://www.loom.com/share/56644d0d21a949709976cee58d80e13f?sid=0304f6e4-4790-4c68-b3aa-485ae6d5cf3d" target="_blank">
             <h3>Elevator Pitch</h3>
           </a>
           <a href="#contact-section">
